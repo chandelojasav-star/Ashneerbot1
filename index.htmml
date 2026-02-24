@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ashneer Bot</title>
+
+  <style>
+    body {
+      background: #0f0f0f;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 600px;
+      background: #181818;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      color: #ff3b3b;
+    }
+
+    textarea {
+      width: 100%;
+      height: 120px;
+      background: #0f0f0f;
+      color: white;
+      border: 1px solid #333;
+      padding: 10px;
+      border-radius: 5px;
+      resize: none;
+    }
+
+    button {
+      margin-top: 10px;
+      width: 100%;
+      padding: 10px;
+      background: #ff3b3b;
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background: #e63232;
+    }
+
+    .response {
+      margin-top: 15px;
+      background: #0f0f0f;
+      padding: 10px;
+      border-radius: 5px;
+      min-height: 60px;
+      color: #ffb3b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Ashneer Bot</h1>
+    <p>Pitch your idea. Don’t waste time.</p>
+
+    <textarea placeholder="Type your startup idea here..."></textarea>
+    <button>Judge My Idea</button>
+
+    <div class="response">
+      Response will appear here.
+    </div>
+  </div>
+
+</body>
+</html>
